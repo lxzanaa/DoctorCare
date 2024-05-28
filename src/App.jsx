@@ -5,6 +5,7 @@ import Servicos from './components/Servicos'
 import Sobre from './components/Sobre'
 import Depoinments from './components/Depoinments'
 import Footer from './components/Footer'
+new WOW().init();
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <Sobre/>
       <Depoinments/>
       <Footer/>
-      
+
     </>
   )
 }
